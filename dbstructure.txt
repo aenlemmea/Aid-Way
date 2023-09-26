@@ -1,0 +1,36 @@
+// Type - One way or Round way
+// Payment Status - REF: Refund, SUC: Success, C: Cash
+// Don't Store Phone Number of Patient (Privacy Requirements)
+// Backup Policy -> 10 CRUD / 1 Backup
+
+Aid Way
+|
+|
+|--> PostRequestsLog
+	|--> Driver, Patient, Type, Payment Status, Payment Mode 
+|
+|
+|--> CurrentRequests
+	|-> <Patient 1>
+	|-> <Patient 2>
+	|-> <Patient i>
+		|-> Location: long, lat
+		|-> Medical Requirements: Header(3 bytes)
+		|-> Type: (2 bytes)
+|
+|
+|--> OneWayDrivers
+	|-> <Driver 1>
+	|-> <Driver 2>
+	|-> <Driver i>
+		|-> Location: long, lat
+		|-> Medical Facility: Header(3 bytes)
+		|-> Phone No.
+	
+|--> RoundWayDrivers
+	|-> <Driver 1>
+	|-> <Driver 2>
+	|-> <Driver i>
+		|-> Location: long, lat
+		|-> Medical Facility: Header(3 bytes)
+		|-> Phone No. 
