@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aid Way</string>
+    <string name="welcome_landing">Welcome to</string>
+    <string name="title">Aid Way</string>
+    <string name="mid_text">Book an ambulance RIGHT NOW, one-way or round-way</string>
+    <string name="next">Next  ❱❱❱</string>
+    <string name="phone_entry">Enter Phone Number</string>
+    <string name="entry">Enter Aid Way</string>
+    <string name="landing_ambulance">Ambulance</string>
+</resources>
